@@ -25,9 +25,9 @@ public class RussenMultipliziererTest {
     }
 
     @Test
-    public void testCanBeDividedByTwo() {
+    public void testIsCreaterOrEqualOne() {
         Integer zaehler = ersteZahl;
-        assertThat(RussenMultiplizierer.canBeDividedByTwo(zaehler), is(true));
+        assertThat(RussenMultiplizierer.isCreaterOrEqualOne(zaehler), is(true));
     }
 
     @Test

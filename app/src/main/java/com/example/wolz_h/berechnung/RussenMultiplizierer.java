@@ -4,8 +4,8 @@ package com.example.wolz_h.berechnung;
 public class RussenMultiplizierer {
 
 
-    public static boolean canBeDividedByTwo(Integer zaehler) {
-        return zaehler > 1;
+    public static boolean isCreaterOrEqualOne(Integer zaehler) {
+        return zaehler >= 1;
     }
 
     public static boolean shouldAddValue(Integer multiplier) {
@@ -33,7 +33,7 @@ public class RussenMultiplizierer {
         int result = 0;
 
 
-        while (canBeDividedByTwo(zaehler)) {
+        while (isCreaterOrEqualOne(zaehler)) {
 
             if (shouldAddValue(zaehler)) {
                 result += zweiteZahl;
